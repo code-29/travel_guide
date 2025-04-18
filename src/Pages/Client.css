@@ -1,0 +1,139 @@
+.client_content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 90px;
+    margin-left: 160px;
+}
+.client_para1{
+    font-size: 35px;
+    color: orange;
+}
+.client_para2{
+    font-size: 55px;
+}
+.imgg_sec{
+    height: 670px;
+    width: 700px;
+
+    background-color: rgb(165, 164, 164);
+    justify-content: center;
+    align-items: cente
+    
+}
+.det{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.client_side{
+    display: flex;
+    left: 400px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: transform 0.6s ease-in-out;
+}
+/* Slide right: previous content moves left, new comes from right */
+.slide-right {
+    animation: slideInFromRight 0.6s forwards;
+  }
+  
+  /* Slide left: previous content moves right, new comes from left */
+  .slide-left {
+    animation: slideInFromLeft 0.6s forwards;
+  }
+  
+  @keyframes slideInFromRight {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+.imgg_sec img{
+   height: 660px;
+   width: 680px;
+   position: relative;
+   top: -20px;
+   border-radius: 20px;
+}
+.client_card{
+    display: flex;
+    height: 400px;
+    width: 900px;
+    position: absolute;
+    left: 650px;
+    top: 200px;
+    justify-content: center;
+    align-items: start;
+    box-shadow: 0px 6px 12px rgb(0, 0, 1,0.4);
+    border-radius: 20px;
+    background-color: white;
+}
+.client_details{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    gap: 3px;
+    margin-left: 30px;
+}
+.arrow {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    top: 150px;
+    z-index: 2;
+    position: relative;
+    left: -200px;
+  }
+
+.arroow{
+    font-size: 55px;
+    color: orange;
+}
+@media(max-width: 650px){
+    .client_side{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-left: -390px;
+    }
+
+    .client_card {
+        flex-direction: column;
+        position: static;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        align-items: center;
+        padding: 20px;
+    }
+.arrow{
+    position: relative;
+    left: 200px;
+}
+
+}
+@media(max-width:358px){
+    .client_card{
+        margin-left: 50px;
+        width: 600px;
+    }
+}
