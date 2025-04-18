@@ -1,16 +1,28 @@
-<<<<<<< HEAD
-# React + Vite
+# 🧳 Travel Guide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based webpage that showcases travel packages, popular cities, and famous tourist places.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display of popular **cities** and **tourist destinations**
+- List of **travel packages**
+- Built with **React (JSX)** and clean, modern UI
+- Easy to customize and extend
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# travel_guide
->>>>>>> e4d60b74e316d9ad72c38f5c6a09b36f76514174
+## 🛠️ Tech Stack
+
+- **React** (with JSX)
+- **JavaScript (ES6+)**
+- **CSS** (or Tailwind, optional)
+- **Node.js** + **npm/yarn**
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/code-29/travel_guide.git
+cd travel_guide
+npm install
+npm start
+
+
