@@ -14,8 +14,8 @@ A simple React-based webpage that showcases travel packages, popular cities, and
 
 - **React** (with JSX)
 - **JavaScript (ES6+)**
-- **CSS** (or Tailwind, optional)
-- **Node.js** + **npm/yarn**
+- **CSS** 
+- **Node.js** 
 
 ## 📦 Installation
 
@@ -23,6 +23,6 @@ A simple React-based webpage that showcases travel packages, popular cities, and
 git clone https://github.com/code-29/travel_guide.git
 cd travel_guide
 npm install
-npm start
+npm run dev
 
 
