@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Pages/contact.css';
+import '../Pages/Contact.css';
 import img1 from '../assets/11.avif';
 
 const Contact = () => {
